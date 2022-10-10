@@ -82,7 +82,7 @@ for C in (1,2,10):
         qlist.append(onerealization(C,pb,pd))
         i -= 1
         if i==nreal/2:
-            print 'halfway'
+            print('halfway')
     qhist = Counter(qlist)
     n = 64
     klist,lhist = [n],[qhist[n]*1./nreal]
@@ -118,7 +118,7 @@ for C in (1,2,10):
             k += 1
         pl.loglog([q*i**1.5 for i,q in enumerate(Qk)],color=mycol[C])
 
-print [(klist[i],lhist[i]) for i in range(len(klist)) if klist[i]>300]
+print([(klist[i],lhist[i]) for i in range(len(klist)) if klist[i]>300])
 
 pl.xlim([60,8000])
 pl.xlabel('$k$',fontsize=14)
