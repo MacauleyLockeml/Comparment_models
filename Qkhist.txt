@@ -92,7 +92,7 @@ for C in (1,2,10):
         lhist.append(thisk**1.5*sum([qhist[j] for j in range(n-w,n+w)])*1./(2*w*nreal))
         klist.append(thisk)
         n = int(n*1.25)
-    pl.loglog(klist,lhist,'o',color=mycol[C],label='C='+str(C))
+    pl.loglog(klist,lhist,'o',color=mycol[C],label='$C =$'+str(C))
     a2 = 1 - 0.25/N**(1+1./C)
 #    pl.loglog([4*N**(1+1./C),4*N**(1+1./C)],[0.01,1],color=mycol[C],linestyle=':')
 
