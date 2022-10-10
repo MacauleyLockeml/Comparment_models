@@ -1,4 +1,4 @@
-# Comparment_models
+# Comparment models
 Why are cell populations maintained via multiple compartments?
 
 Feliciangeli et al, J Royal Society Interface (2022)
