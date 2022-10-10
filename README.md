@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/548825823.svg)](https://zenodo.org/badge/latestdoi/548825823)
 # Comparment models
 Why are cell populations maintained via multiple compartments?
 
